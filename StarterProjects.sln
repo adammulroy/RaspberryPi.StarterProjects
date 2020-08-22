@@ -1,6 +1,10 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlinkyStuff", "BlinkyStuff\BlinkyStuff.csproj", "{412AEAD5-49A7-4BEC-A79D-3BD9E7917A56}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RaspberryPi.Interfaces", "RaspberryPi.Interfaces\RaspberryPi.Interfaces.csproj", "{E44D0CC4-5E53-4F6F-9B8E-C5F4AB8683BC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RaspberryPi.Web", "RaspberryPi.Web\RaspberryPi.Web.csproj", "{A24FB038-BDB2-46BE-B4DF-A45E23FC705A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RaspberryPi.Hardware", "RaspberryPi.Hardware\RaspberryPi.Hardware.csproj", "{B9669EA4-90AA-4E5F-82F8-05ECB09E36D6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -8,9 +12,17 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{412AEAD5-49A7-4BEC-A79D-3BD9E7917A56}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{412AEAD5-49A7-4BEC-A79D-3BD9E7917A56}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{412AEAD5-49A7-4BEC-A79D-3BD9E7917A56}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{412AEAD5-49A7-4BEC-A79D-3BD9E7917A56}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E44D0CC4-5E53-4F6F-9B8E-C5F4AB8683BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E44D0CC4-5E53-4F6F-9B8E-C5F4AB8683BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E44D0CC4-5E53-4F6F-9B8E-C5F4AB8683BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E44D0CC4-5E53-4F6F-9B8E-C5F4AB8683BC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A24FB038-BDB2-46BE-B4DF-A45E23FC705A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A24FB038-BDB2-46BE-B4DF-A45E23FC705A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A24FB038-BDB2-46BE-B4DF-A45E23FC705A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A24FB038-BDB2-46BE-B4DF-A45E23FC705A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B9669EA4-90AA-4E5F-82F8-05ECB09E36D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B9669EA4-90AA-4E5F-82F8-05ECB09E36D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B9669EA4-90AA-4E5F-82F8-05ECB09E36D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B9669EA4-90AA-4E5F-82F8-05ECB09E36D6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
