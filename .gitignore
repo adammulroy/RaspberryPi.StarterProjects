@@ -6,3 +6,4 @@
 bin/
 obj/
 .idea/**/*
+!/.idea/.idea.StarterProjects/.idea/runConfigurations/RaspberryPi_Web.xml
