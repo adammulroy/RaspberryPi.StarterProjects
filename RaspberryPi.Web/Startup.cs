@@ -6,7 +6,6 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using RaspberryPi.Hardware;
 using RaspberryPi.Interfaces;
-using Refit;
 
 namespace RaspberryPi.Web
 {
@@ -23,7 +22,7 @@ namespace RaspberryPi.Web
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllers();
-            services.AddScoped<IRaspberryPiApi, RaspberryPiApiHardwareInterface>();
+            services.AddScoped<IRaspberryPiApi, ApiHardwareInterface>();
         }
 
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
